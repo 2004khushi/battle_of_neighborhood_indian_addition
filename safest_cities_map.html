@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f61c5d46e6c13aaf355ae9281b688e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f61c5d46e6c13aaf355ae9281b688e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f61c5d46e6c13aaf355ae9281b688e2 = L.map(
+                "map_0f61c5d46e6c13aaf355ae9281b688e2",
+                {
+                    center: [23.094442048, 77.4438624],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f669c20f69773a6506292713cdb051df = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f669c20f69773a6506292713cdb051df.addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var marker_6efe337916002b5054924e27e95b7f85 = L.marker(
+                [17.6935526, 83.2921297],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_9b097907c153fd804d35ad0095cd4f58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_198260211846ba4861ef29f4cece8f21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4d931721206ae20597e14b0dca81da6 = $(`<div id="html_d4d931721206ae20597e14b0dca81da6" style="width: 100.0%; height: 100.0%;">Visakhapatnam, Total Crimes: 410 Major Crime: IDENTITY THEFT</div>`)[0];
+                popup_198260211846ba4861ef29f4cece8f21.setContent(html_d4d931721206ae20597e14b0dca81da6);
+            
+        
+
+        marker_6efe337916002b5054924e27e95b7f85.bindPopup(popup_198260211846ba4861ef29f4cece8f21)
+        ;
+
+        
+    
+    
+                marker_6efe337916002b5054924e27e95b7f85.setIcon(icon_9b097907c153fd804d35ad0095cd4f58);
+            
+    
+            var marker_ed31c4d7c19cd4ff3d14931069070cdb = L.marker(
+                [25.6093239, 85.1235252],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_66170b5c5a35351f92c064ffec652492 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19bf764372c7f4eee5fa3efce40ebaca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4f2ecff8d7372dfce25f03d193737c9 = $(`<div id="html_b4f2ecff8d7372dfce25f03d193737c9" style="width: 100.0%; height: 100.0%;">Patna, Total Crimes: 389 Major Crime: SEXUAL ASSAULT</div>`)[0];
+                popup_19bf764372c7f4eee5fa3efce40ebaca.setContent(html_b4f2ecff8d7372dfce25f03d193737c9);
+            
+        
+
+        marker_ed31c4d7c19cd4ff3d14931069070cdb.bindPopup(popup_19bf764372c7f4eee5fa3efce40ebaca)
+        ;
+
+        
+    
+    
+                marker_ed31c4d7c19cd4ff3d14931069070cdb.setIcon(icon_66170b5c5a35351f92c064ffec652492);
+            
+    
+            var marker_2cae93d2ec8da4af77f6547603b4898c = L.marker(
+                [28.6138954, 77.2090057],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_d53c89ad4a754f4ed7fb7268991bf50f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_40deea9ae472b6f47aba884c8b9c1875 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9c435ffe9971e991868b915dfa720a1 = $(`<div id="html_f9c435ffe9971e991868b915dfa720a1" style="width: 100.0%; height: 100.0%;">Delhi, Total Crimes: 3014 Major Crime: DRUG OFFENSE</div>`)[0];
+                popup_40deea9ae472b6f47aba884c8b9c1875.setContent(html_f9c435ffe9971e991868b915dfa720a1);
+            
+        
+
+        marker_2cae93d2ec8da4af77f6547603b4898c.bindPopup(popup_40deea9ae472b6f47aba884c8b9c1875)
+        ;
+
+        
+    
+    
+                marker_2cae93d2ec8da4af77f6547603b4898c.setIcon(icon_d53c89ad4a754f4ed7fb7268991bf50f);
+            
+    
+            var marker_e3325e9e3d14920d4587408c823e7bc7 = L.marker(
+                [22.3053263, 70.8028377],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_7f32d7daac9cdbc7beb7a01a4dc66160 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e32925320a5b020e1f71c9481ead46cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0739aaacf875aa4f68aa7e5356113c48 = $(`<div id="html_0739aaacf875aa4f68aa7e5356113c48" style="width: 100.0%; height: 100.0%;">Rajkot, Total Crimes: 193 Major Crime: TRAFFIC VIOLATION</div>`)[0];
+                popup_e32925320a5b020e1f71c9481ead46cd.setContent(html_0739aaacf875aa4f68aa7e5356113c48);
+            
+        
+
+        marker_e3325e9e3d14920d4587408c823e7bc7.bindPopup(popup_e32925320a5b020e1f71c9481ead46cd)
+        ;
+
+        
+    
+    
+                marker_e3325e9e3d14920d4587408c823e7bc7.setIcon(icon_7f32d7daac9cdbc7beb7a01a4dc66160);
+            
+    
+            var marker_fb316fc10d05c7edd5f8e48163237dd4 = L.marker(
+                [21.2094892, 72.8317058],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_b4f2c6dbef4937c7694f2722bb6ac6df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a8c4c64a569593af308a75945e40f21a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_573da09de44e52e31bf6dfebe973a6a7 = $(`<div id="html_573da09de44e52e31bf6dfebe973a6a7" style="width: 100.0%; height: 100.0%;">Surat, Total Crimes: 638 Major Crime: TRAFFIC VIOLATION</div>`)[0];
+                popup_a8c4c64a569593af308a75945e40f21a.setContent(html_573da09de44e52e31bf6dfebe973a6a7);
+            
+        
+
+        marker_fb316fc10d05c7edd5f8e48163237dd4.bindPopup(popup_a8c4c64a569593af308a75945e40f21a)
+        ;
+
+        
+    
+    
+                marker_fb316fc10d05c7edd5f8e48163237dd4.setIcon(icon_b4f2c6dbef4937c7694f2722bb6ac6df);
+            
+    
+            var marker_71e803d7cdbb7146ebc48f22261314b6 = L.marker(
+                [23.0215374, 72.5800568],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_87c2d40a2f8cb1f1677487820b2d4612 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f7d5968afcddac492a47924e8d62ed8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbfccb8998ed78032bf7d7fc413d46db = $(`<div id="html_bbfccb8998ed78032bf7d7fc413d46db" style="width: 100.0%; height: 100.0%;">Ahmedabad, Total Crimes: 984 Major Crime: ASSAULT</div>`)[0];
+                popup_5f7d5968afcddac492a47924e8d62ed8.setContent(html_bbfccb8998ed78032bf7d7fc413d46db);
+            
+        
+
+        marker_71e803d7cdbb7146ebc48f22261314b6.bindPopup(popup_5f7d5968afcddac492a47924e8d62ed8)
+        ;
+
+        
+    
+    
+                marker_71e803d7cdbb7146ebc48f22261314b6.setIcon(icon_87c2d40a2f8cb1f1677487820b2d4612);
+            
+    
+            var marker_64f74a11ac499ab9acf8a96221560414 = L.marker(
+                [34.0747444, 74.8204443],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_b2f2edaae7a8abdf5b79616bed78b804 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa4a089b748f0395773fca8d52893278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_720c3232b0bb219dec568a6833e017f7 = $(`<div id="html_720c3232b0bb219dec568a6833e017f7" style="width: 100.0%; height: 100.0%;">Srinagar, Total Crimes: 207 Major Crime: BURGLARY</div>`)[0];
+                popup_fa4a089b748f0395773fca8d52893278.setContent(html_720c3232b0bb219dec568a6833e017f7);
+            
+        
+
+        marker_64f74a11ac499ab9acf8a96221560414.bindPopup(popup_fa4a089b748f0395773fca8d52893278)
+        ;
+
+        
+    
+    
+                marker_64f74a11ac499ab9acf8a96221560414.setIcon(icon_b2f2edaae7a8abdf5b79616bed78b804);
+            
+    
+            var marker_2d7490cbabe040683f04ec7547f01efa = L.marker(
+                [12.9767936, 77.590082],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_0a9de8db5ef5400bbd1723c62ca54f96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58b38739558a8a2293921473d3477975 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86ca46bb1755660d693521c2e8e91bbd = $(`<div id="html_86ca46bb1755660d693521c2e8e91bbd" style="width: 100.0%; height: 100.0%;">Bangalore, Total Crimes: 2023 Major Crime: EXTORTION</div>`)[0];
+                popup_58b38739558a8a2293921473d3477975.setContent(html_86ca46bb1755660d693521c2e8e91bbd);
+            
+        
+
+        marker_2d7490cbabe040683f04ec7547f01efa.bindPopup(popup_58b38739558a8a2293921473d3477975)
+        ;
+
+        
+    
+    
+                marker_2d7490cbabe040683f04ec7547f01efa.setIcon(icon_0a9de8db5ef5400bbd1723c62ca54f96);
+            
+    
+            var marker_19ba0e5185b654bd9698b5c7c83feb47 = L.marker(
+                [22.7203616, 75.8681996],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_49017d775ee01f30dcfa051e0f722ba5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c88420d7dc61d7abda76cf3079cf518e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f13ccf4b2e1ceb494870a5abe6685b4f = $(`<div id="html_f13ccf4b2e1ceb494870a5abe6685b4f" style="width: 100.0%; height: 100.0%;">Indore, Total Crimes: 380 Major Crime: EXTORTION</div>`)[0];
+                popup_c88420d7dc61d7abda76cf3079cf518e.setContent(html_f13ccf4b2e1ceb494870a5abe6685b4f);
+            
+        
+
+        marker_19ba0e5185b654bd9698b5c7c83feb47.bindPopup(popup_c88420d7dc61d7abda76cf3079cf518e)
+        ;
+
+        
+    
+    
+                marker_19ba0e5185b654bd9698b5c7c83feb47.setIcon(icon_49017d775ee01f30dcfa051e0f722ba5);
+            
+    
+            var marker_d2cccd9cfc50a9a2a08a4827fa474233 = L.marker(
+                [23.2584857, 77.401989],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_6a0404f5848caf2de27c1e68cad96e71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53c69f6398bcaaac131d8c54b796a0bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38275f20ab61fabe773e5280d66b87a0 = $(`<div id="html_38275f20ab61fabe773e5280d66b87a0" style="width: 100.0%; height: 100.0%;">Bhopal, Total Crimes: 390 Major Crime: KIDNAPPING</div>`)[0];
+                popup_53c69f6398bcaaac131d8c54b796a0bd.setContent(html_38275f20ab61fabe773e5280d66b87a0);
+            
+        
+
+        marker_d2cccd9cfc50a9a2a08a4827fa474233.bindPopup(popup_53c69f6398bcaaac131d8c54b796a0bd)
+        ;
+
+        
+    
+    
+                marker_d2cccd9cfc50a9a2a08a4827fa474233.setIcon(icon_6a0404f5848caf2de27c1e68cad96e71);
+            
+    
+            var marker_876ad967646a760a5b844cc2266d7fc5 = L.marker(
+                [19.2396742, 73.1366482],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_7f841ff8a208601809d81924dd658445 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4770e9c68d9fe9c28252c74ee66edf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5f090d4cfa06029c01bc770ac5eb631 = $(`<div id="html_d5f090d4cfa06029c01bc770ac5eb631" style="width: 100.0%; height: 100.0%;">Kalyan, Total Crimes: 205 Major Crime: PUBLIC INTOXICATION</div>`)[0];
+                popup_c4770e9c68d9fe9c28252c74ee66edf0.setContent(html_d5f090d4cfa06029c01bc770ac5eb631);
+            
+        
+
+        marker_876ad967646a760a5b844cc2266d7fc5.bindPopup(popup_c4770e9c68d9fe9c28252c74ee66edf0)
+        ;
+
+        
+    
+    
+                marker_876ad967646a760a5b844cc2266d7fc5.setIcon(icon_7f841ff8a208601809d81924dd658445);
+            
+    
+            var marker_82b4b05d54b21411b6f7517318916cd2 = L.marker(
+                [20.0112475, 73.7902364],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_0d251205fbeffbe27e6e8530bd9c5ce8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ef74194535942b62600d6d0dc392129 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c03e28055e42490fc6fa0f5e574e9922 = $(`<div id="html_c03e28055e42490fc6fa0f5e574e9922" style="width: 100.0%; height: 100.0%;">Nashik, Total Crimes: 217 Major Crime: ASSAULT</div>`)[0];
+                popup_3ef74194535942b62600d6d0dc392129.setContent(html_c03e28055e42490fc6fa0f5e574e9922);
+            
+        
+
+        marker_82b4b05d54b21411b6f7517318916cd2.bindPopup(popup_3ef74194535942b62600d6d0dc392129)
+        ;
+
+        
+    
+    
+                marker_82b4b05d54b21411b6f7517318916cd2.setIcon(icon_0d251205fbeffbe27e6e8530bd9c5ce8);
+            
+    
+            var marker_c1c8edccb0b60ae0b83a1335cbbfe3ef = L.marker(
+                [19.3653598, 73.3685437],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_dba11db382faa5054480aff8a361809e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54aad225f51c8791d881a37b17dce781 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7af1098301598536fce7937fd6eb575a = $(`<div id="html_7af1098301598536fce7937fd6eb575a" style="width: 100.0%; height: 100.0%;">Thane, Total Crimes: 387 Major Crime: BURGLARY</div>`)[0];
+                popup_54aad225f51c8791d881a37b17dce781.setContent(html_7af1098301598536fce7937fd6eb575a);
+            
+        
+
+        marker_c1c8edccb0b60ae0b83a1335cbbfe3ef.bindPopup(popup_54aad225f51c8791d881a37b17dce781)
+        ;
+
+        
+    
+    
+                marker_c1c8edccb0b60ae0b83a1335cbbfe3ef.setIcon(icon_dba11db382faa5054480aff8a361809e);
+            
+    
+            var marker_2d576335e70dc2aa105348e37b136d84 = L.marker(
+                [21.1498134, 79.0820556],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_59d68e88b5640a5ae488979d525d9448 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c1635605f321775b1156efa237f1b4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dc53dcdf2de82271703a66cd962138b = $(`<div id="html_6dc53dcdf2de82271703a66cd962138b" style="width: 100.0%; height: 100.0%;">Nagpur, Total Crimes: 611 Major Crime: ARSON</div>`)[0];
+                popup_3c1635605f321775b1156efa237f1b4d.setContent(html_6dc53dcdf2de82271703a66cd962138b);
+            
+        
+
+        marker_2d576335e70dc2aa105348e37b136d84.bindPopup(popup_3c1635605f321775b1156efa237f1b4d)
+        ;
+
+        
+    
+    
+                marker_2d576335e70dc2aa105348e37b136d84.setIcon(icon_59d68e88b5640a5ae488979d525d9448);
+            
+    
+            var marker_57bc5efbfda5a302dc76fbdab9bca9c3 = L.marker(
+                [18.5213738, 73.8545071],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_6b801e6904fbd1514de4d14753606a12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89f65aae48fee9646655eec61f8cb4bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_747f3a3eb09fa608c2dca85e610e1c62 = $(`<div id="html_747f3a3eb09fa608c2dca85e610e1c62" style="width: 100.0%; height: 100.0%;">Pune, Total Crimes: 1261 Major Crime: BURGLARY</div>`)[0];
+                popup_89f65aae48fee9646655eec61f8cb4bb.setContent(html_747f3a3eb09fa608c2dca85e610e1c62);
+            
+        
+
+        marker_57bc5efbfda5a302dc76fbdab9bca9c3.bindPopup(popup_89f65aae48fee9646655eec61f8cb4bb)
+        ;
+
+        
+    
+    
+                marker_57bc5efbfda5a302dc76fbdab9bca9c3.setIcon(icon_6b801e6904fbd1514de4d14753606a12);
+            
+    
+            var marker_aafe9b492b249327f65c10149bbd1188 = L.marker(
+                [30.9090157, 75.851601],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_7c684766420fd9b11e594002b41b04b3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94d98412a90f1c1a9c4ceb6102ce5aaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c4e566f67a6bf6a7b90da2992bf4298 = $(`<div id="html_9c4e566f67a6bf6a7b90da2992bf4298" style="width: 100.0%; height: 100.0%;">Ludhiana, Total Crimes: 430 Major Crime: FRAUD</div>`)[0];
+                popup_94d98412a90f1c1a9c4ceb6102ce5aaf.setContent(html_9c4e566f67a6bf6a7b90da2992bf4298);
+            
+        
+
+        marker_aafe9b492b249327f65c10149bbd1188.bindPopup(popup_94d98412a90f1c1a9c4ceb6102ce5aaf)
+        ;
+
+        
+    
+    
+                marker_aafe9b492b249327f65c10149bbd1188.setIcon(icon_7c684766420fd9b11e594002b41b04b3);
+            
+    
+            var marker_d2257e27a5d80950470e2dfac1ae01cf = L.marker(
+                [26.9154576, 75.8189817],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_01d4b8e3b6ae616075e108e17d04d9f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ab57473aeeeebe0bbca7cf283151feb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e55950fd68038152ba0b4f904233a98 = $(`<div id="html_3e55950fd68038152ba0b4f904233a98" style="width: 100.0%; height: 100.0%;">Jaipur, Total Crimes: 795 Major Crime: COUNTERFEITING</div>`)[0];
+                popup_0ab57473aeeeebe0bbca7cf283151feb.setContent(html_3e55950fd68038152ba0b4f904233a98);
+            
+        
+
+        marker_d2257e27a5d80950470e2dfac1ae01cf.bindPopup(popup_0ab57473aeeeebe0bbca7cf283151feb)
+        ;
+
+        
+    
+    
+                marker_d2257e27a5d80950470e2dfac1ae01cf.setIcon(icon_01d4b8e3b6ae616075e108e17d04d9f4);
+            
+    
+            var marker_69728c6993d56d67ae05eba03bf7bf7d = L.marker(
+                [13.0836939, 80.270186],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_0c1ed6d5bd8a596fa380da2bad325322 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3eb05efcc07edf1e15f22800ad72efc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4cf99f73b6f5452ac0e1375eb25fc9d = $(`<div id="html_c4cf99f73b6f5452ac0e1375eb25fc9d" style="width: 100.0%; height: 100.0%;">Chennai, Total Crimes: 1417 Major Crime: KIDNAPPING</div>`)[0];
+                popup_e3eb05efcc07edf1e15f22800ad72efc.setContent(html_c4cf99f73b6f5452ac0e1375eb25fc9d);
+            
+        
+
+        marker_69728c6993d56d67ae05eba03bf7bf7d.bindPopup(popup_e3eb05efcc07edf1e15f22800ad72efc)
+        ;
+
+        
+    
+    
+                marker_69728c6993d56d67ae05eba03bf7bf7d.setIcon(icon_0c1ed6d5bd8a596fa380da2bad325322);
+            
+    
+            var marker_ee0a4a72d0730e6c2b1b169421e40be2 = L.marker(
+                [17.360589, 78.4740613],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_b351669f0fed432cfc55bb0305454aa0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5474ee4d356f7a17289c615cfee79c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca23c4044a2779cc6c188172e4deaf10 = $(`<div id="html_ca23c4044a2779cc6c188172e4deaf10" style="width: 100.0%; height: 100.0%;">Hyderabad, Total Crimes: 1594 Major Crime: VEHICLE - STOLEN</div>`)[0];
+                popup_f5474ee4d356f7a17289c615cfee79c9.setContent(html_ca23c4044a2779cc6c188172e4deaf10);
+            
+        
+
+        marker_ee0a4a72d0730e6c2b1b169421e40be2.bindPopup(popup_f5474ee4d356f7a17289c615cfee79c9)
+        ;
+
+        
+    
+    
+                marker_ee0a4a72d0730e6c2b1b169421e40be2.setIcon(icon_b351669f0fed432cfc55bb0305454aa0);
+            
+    
+            var marker_e9dcc1a37c60ceec937e127dcc910ee1 = L.marker(
+                [25.3356491, 83.0076292],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_451e3a510d5d92579af822ae931feace = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fa55735fd8c2f460cd84b651a52b4fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea6cf1246be590545ccb13b075ffaab6 = $(`<div id="html_ea6cf1246be590545ccb13b075ffaab6" style="width: 100.0%; height: 100.0%;">Varanasi, Total Crimes: 195 Major Crime: BURGLARY</div>`)[0];
+                popup_2fa55735fd8c2f460cd84b651a52b4fc.setContent(html_ea6cf1246be590545ccb13b075ffaab6);
+            
+        
+
+        marker_e9dcc1a37c60ceec937e127dcc910ee1.bindPopup(popup_2fa55735fd8c2f460cd84b651a52b4fc)
+        ;
+
+        
+    
+    
+                marker_e9dcc1a37c60ceec937e127dcc910ee1.setIcon(icon_451e3a510d5d92579af822ae931feace);
+            
+    
+            var marker_fc74a076dc10ee5eeb291dccaee60b28 = L.marker(
+                [29.0018557, 77.7679671],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_a67e46556d72c176948572ebe333e5ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b69474a701947945d6201ceab8e4b258 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd87378db3498dc3748681c0783f652b = $(`<div id="html_cd87378db3498dc3748681c0783f652b" style="width: 100.0%; height: 100.0%;">Meerut, Total Crimes: 233 Major Crime: DOMESTIC VIOLENCE</div>`)[0];
+                popup_b69474a701947945d6201ceab8e4b258.setContent(html_cd87378db3498dc3748681c0783f652b);
+            
+        
+
+        marker_fc74a076dc10ee5eeb291dccaee60b28.bindPopup(popup_b69474a701947945d6201ceab8e4b258)
+        ;
+
+        
+    
+    
+                marker_fc74a076dc10ee5eeb291dccaee60b28.setIcon(icon_a67e46556d72c176948572ebe333e5ed);
+            
+    
+            var marker_ad37208b887e27ba02d7e7f3269f0935 = L.marker(
+                [28.7749966, 77.4586967],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_8c05b02861f52339939b85c2104bf587 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bffc09c05d2c5899987f0e64965fe8de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85231e758b88b7ad861b60dd42043871 = $(`<div id="html_85231e758b88b7ad861b60dd42043871" style="width: 100.0%; height: 100.0%;">Ghaziabad, Total Crimes: 390 Major Crime: TRAFFIC VIOLATION</div>`)[0];
+                popup_bffc09c05d2c5899987f0e64965fe8de.setContent(html_85231e758b88b7ad861b60dd42043871);
+            
+        
+
+        marker_ad37208b887e27ba02d7e7f3269f0935.bindPopup(popup_bffc09c05d2c5899987f0e64965fe8de)
+        ;
+
+        
+    
+    
+                marker_ad37208b887e27ba02d7e7f3269f0935.setIcon(icon_8c05b02861f52339939b85c2104bf587);
+            
+    
+            var marker_4cfd14982436e21c25d6a74990bce703 = L.marker(
+                [27.1752554, 78.0098161],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_39430d5afb6dddbe85ac0356cf9f7705 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_211bcb6959851f534cebac6bd8210a5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c66145fdaf0a7b94fa4c27204f726962 = $(`<div id="html_c66145fdaf0a7b94fa4c27204f726962" style="width: 100.0%; height: 100.0%;">Agra, Total Crimes: 431 Major Crime: ARSON</div>`)[0];
+                popup_211bcb6959851f534cebac6bd8210a5d.setContent(html_c66145fdaf0a7b94fa4c27204f726962);
+            
+        
+
+        marker_4cfd14982436e21c25d6a74990bce703.bindPopup(popup_211bcb6959851f534cebac6bd8210a5d)
+        ;
+
+        
+    
+    
+                marker_4cfd14982436e21c25d6a74990bce703.setIcon(icon_39430d5afb6dddbe85ac0356cf9f7705);
+            
+    
+            var marker_4ca7cd51e666832039138df08764e9de = L.marker(
+                [26.4609135, 80.3217588],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_3969c35fcd4d3d59f32b089317dc4620 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f18653968ee051ffa47d0b72997b48ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6a54e05bdfaee44ebcf303d981a5258 = $(`<div id="html_a6a54e05bdfaee44ebcf303d981a5258" style="width: 100.0%; height: 100.0%;">Kanpur, Total Crimes: 645 Major Crime: ARSON</div>`)[0];
+                popup_f18653968ee051ffa47d0b72997b48ac.setContent(html_a6a54e05bdfaee44ebcf303d981a5258);
+            
+        
+
+        marker_4ca7cd51e666832039138df08764e9de.bindPopup(popup_f18653968ee051ffa47d0b72997b48ac)
+        ;
+
+        
+    
+    
+                marker_4ca7cd51e666832039138df08764e9de.setIcon(icon_3969c35fcd4d3d59f32b089317dc4620);
+            
+    
+            var marker_a3d9ab91330fd40c2c5e61974111fa0e = L.marker(
+                [22.5726459, 88.3638953],
+                {
+}
+            ).addTo(map_0f61c5d46e6c13aaf355ae9281b688e2);
+        
+    
+            var icon_9d44de5c4520907c2bde7d2a4d85b8a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14662927f7889d146e6b123fb295e9f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b75957cb6a40dfbbd5026e1619ada60c = $(`<div id="html_b75957cb6a40dfbbd5026e1619ada60c" style="width: 100.0%; height: 100.0%;">Kolkata, Total Crimes: 1415 Major Crime: BURGLARY</div>`)[0];
+                popup_14662927f7889d146e6b123fb295e9f8.setContent(html_b75957cb6a40dfbbd5026e1619ada60c);
+            
+        
+
+        marker_a3d9ab91330fd40c2c5e61974111fa0e.bindPopup(popup_14662927f7889d146e6b123fb295e9f8)
+        ;
+
+        
+    
+    
+                marker_a3d9ab91330fd40c2c5e61974111fa0e.setIcon(icon_9d44de5c4520907c2bde7d2a4d85b8a9);
+            
+</script>
+</html>
